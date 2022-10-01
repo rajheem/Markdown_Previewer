@@ -22,9 +22,9 @@ function App() {
       <textarea id="editor" cols="50" rows="3" value={text} onChange={handleChange} ></textarea>
        </div>
 
-       <div id="prev">
+       <div id="prev ">
            <h1>Output</h1>
-           <div id="preview">
+           <div id="preview" className="container-fluid">
            <Preview display={text}/>
            </div>
        </div>

@@ -31,6 +31,13 @@ body{
   display: flex;
   flex-direction: column;
 }
+
+#edit h1,h2,h3,h4,h5,h6{
+  border: none;
+}
+#prev h1,h2,h3,h4,h5,h6{
+  border: none;
+}
 #preview {
   text-align: left;
   font-size: 18px;
@@ -55,6 +62,8 @@ th {
   border: 2px solid turquoise;
   padding-left: 5px;
   padding-right: 5px;
+  max-width: 90%;
+  margin: 2rem auto;
 }
 
 h1,h2,h3,h4,h5,h6{

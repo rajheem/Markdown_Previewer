@@ -59,6 +59,7 @@ img {
 }
 td,
 th {
+  table-layout: auto;
   border: 2px solid turquoise;
   padding-left: 5px;
   padding-right: 5px;
